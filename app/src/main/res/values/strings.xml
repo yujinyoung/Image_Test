@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Image_Test</string>
+    <string name="but_rotate_label">이미지 회전</string>
+    <string name="but_transform_label">이미지 이동</string>
+    <string name="but_scale_label">이미지 확대</string>
+    <string name="but_skrew_label">이미지 비틀기</string>
 </resources>
