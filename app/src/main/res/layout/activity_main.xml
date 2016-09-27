@@ -7,34 +7,47 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="kr.hs.emirim.dbwlsdud0407.image_test.MainActivity">
+    tools:context="kr.hs.emirim.dbwlsdud0407.image_test.MainActivity"
+    android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"  >
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
         <Button
+            android:id="@+id/b1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/but_rotate_label"
+            android:onClick="imageTurn"
             />
         <Button
+            android:id="@+id/b2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/but_transform_label"
+            android:onClick="imageTurn"
             />
         <Button
+            android:id="@+id/b3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/but_scale_label"
+            android:onClick="imageTurn"
             />
         <Button
+            android:id="@+id/b4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/but_skrew_label"
+            android:onClick="imageTurn"
             />
-
 </LinearLayout>
-<kr.hs.emirim.dbwlsdud0407.image_test.MyImage
+<LinearLayout
+    android:id="@+id/linear1"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" />
-    </LinearLayout>
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    ></LinearLayout>
+</LinearLayout>
